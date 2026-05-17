@@ -9,3 +9,4 @@ fastapi
 sentence-transformers   
 langchain_huggingface    
 pypdf
+uvicorn
