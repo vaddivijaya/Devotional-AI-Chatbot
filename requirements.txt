@@ -1,1 +1,11 @@
-langchain-community pypdf
+langchain-community
+langchain
+langchain-pinecone
+langchain-core
+langchain-google-genai  
+pinecone
+python-dotenv   
+fastapi uvicorn
+sentence-transformers   
+langchain_huggingface    
+pypdf
