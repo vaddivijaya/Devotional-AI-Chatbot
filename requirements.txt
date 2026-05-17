@@ -5,7 +5,7 @@ langchain-core
 langchain-google-genai  
 pinecone
 python-dotenv   
-fastapi uvicorn
+fastapi
 sentence-transformers   
 langchain_huggingface    
 pypdf
