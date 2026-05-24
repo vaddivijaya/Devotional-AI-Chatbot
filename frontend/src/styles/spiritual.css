@@ -424,6 +424,7 @@ html, body, #root {
   font-family: 'Cinzel Decorative', cursive;
 }
 
+
 .message-label.user-label { color: rgba(255,107,26,0.7); text-align: right; }
 .message-label.bot-label  { color: rgba(255,215,0,0.5); }
 

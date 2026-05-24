@@ -1,3 +1,5 @@
+import ReactMarkdown from "react-markdown";
+
 export function MessageBubble({ message }) {
   const { role, content } = message;
 
@@ -6,16 +8,27 @@ export function MessageBubble({ message }) {
       {role === "bot" && (
         <div className="bot-avatar">ॐ</div>
       )}
+
       <div className={`message-bubble ${role}`}>
-        <div className={`message-label ${role === "user" ? "user-label" : "bot-label"}`}>
+
+        <div
+          className={`message-label ${
+            role === "user" ? "user-label" : "bot-label"
+          }`}
+        >
           {role === "user" ? "You" : "✦ Sacred Wisdom ✦"}
         </div>
-        {content}
+
+        <div className="message-content">
+          <ReactMarkdown>
+            {content}
+          </ReactMarkdown>
+        </div>
+
       </div>
     </div>
   );
 }
-
 export function TypingIndicator() {
   return (
     <div className="message-wrapper bot">
