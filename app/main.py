@@ -12,7 +12,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
+        "https://loving-growth-production-e9ed.up.railway.app/chat",
     ],
     allow_credentials=True,
     allow_methods=["*"],
