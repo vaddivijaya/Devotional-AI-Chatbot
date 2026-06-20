@@ -17,9 +17,13 @@ An AI-powered chatbot that answers questions about **Ramayana, Mahabharata, and 
 
 ## 🖥️ Screenshots
 
-<img width="959" height="472" alt="image" src="https://github.com/user-attachments/assets/dedb54f0-6c3f-40ae-a4df-9f3b42c7618a" />
+<img width="959" height="560" alt="image" src="https://github.com/user-attachments/assets/343a1ff6-abd6-4ce2-b96a-36ca35d1bb8d" />
 
-<img width="953" height="452" alt="image" src="https://github.com/user-attachments/assets/6796d32f-fad7-49e0-a511-03a9fda0307e" />
+
+<img width="958" height="562" alt="image" src="https://github.com/user-attachments/assets/7c2af983-becc-467c-aa57-054a980ce02b" />
+
+
+
 
 
 ---
