@@ -12,7 +12,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://loving-growth-production-e9ed.up.railway.app/chat",
+        "https://devotional-ai-chatbot.vercel.app/",
     ],
     allow_credentials=True,
     allow_methods=["*"],
