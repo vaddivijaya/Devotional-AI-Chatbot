@@ -592,7 +592,7 @@ function MandalaBg({ sidebarOpen }) {
   );
 }
 
-const API_URL = "http://localhost:8000/chat";
+const API_URL = "https://loving-growth-production-e9ed.up.railway.app/chat";
 
 export default function App() {
 
