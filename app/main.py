@@ -12,7 +12,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://devotional-ai-chatbot.vercel.app/",
+        "https://devotional-ai-chatbot.vercel.app",
+        "https://devotional-ai-chatbot-36niyqt6i.vercel.app/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
